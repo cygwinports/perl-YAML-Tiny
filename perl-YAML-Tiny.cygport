@@ -1,11 +1,13 @@
-CPAN_AUTHOR=adamk
+CPAN_AUTHOR=ether
 inherit perl
 
 NAME="perl-YAML-Tiny"
-VERSION=1.51
+VERSION=1.67
 RELEASE=1
 CATEGORY="Perl"
 SUMMARY="Perl YAML subset parser module"
 DESCRIPTION="YAML::Tiny can parse a limited subset of YAML. But the subset
 supported contains most of the features for the more common usese of YAML,
 without the memory requirements of the full YAML parser."
+
+ARCH=noarch
